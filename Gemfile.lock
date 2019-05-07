@@ -112,10 +112,10 @@ DEPENDENCIES
   require_all
   rspec
   shotgun
-  sinatra
-  sinatra-activerecord
+  sinatra (= 2.0.1)
+  sinatra-activerecord (= 2.0.13)
   sqlite3 (= 1.4.1)
-  thin
+  thin (= 1.7.2)
   tux
 
 BUNDLED WITH
