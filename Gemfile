@@ -1,11 +1,11 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'sinatra', '2.0.1'
+gem 'sinatra'
 gem 'activerecord', '4.2.5'
-gem 'sinatra-activerecord', '2.0.13'
+gem 'sinatra-activerecord'
 gem 'rake'
-gem 'thin', '1.7.2'
+gem 'thin'
 gem 'require_all'
 
 
@@ -13,7 +13,7 @@ group :development do
 	gem 'shotgun'
 	gem 'pry'
 	gem 'tux'
-	gem 'sqlite3', '1.4.1 '
+	gem 'sqlite3'
 end
     
 group :test do
