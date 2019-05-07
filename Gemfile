@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
+gem 'active'
 gem 'thin'
 gem 'require_all'
 
